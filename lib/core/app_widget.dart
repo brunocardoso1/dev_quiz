@@ -9,7 +9,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "DevQuiz",
-      home: HomePage(), // Chama a função responsavel por uma tela
+      home: ChallengePage(), // Chama a função responsavel por uma tela
     );
   }
 }
